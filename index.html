@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/fonts.css" />
     <title>Tailwind Template</title>
 
     <link
@@ -14,9 +15,11 @@
   <body class="font-inter">
     <header class="">
       <div class="container max-w-screen-xl w-[1287px] mx-auto">
-        <div class="header-content">
+        <div class="header-content flex gap-32 justify-between">
           <div class="header-card">
-            <a href="#"><img src="./images/logo.png" alt="#" /></a>
+            <a href="#"
+              ><img src="./images/logo.png" alt="#" class="mt-6 mb-[69px]"
+            /></a>
             <h1
               style="max-width: 611px"
               class="font-black text-[60px] leading-[60px]"
@@ -24,20 +27,128 @@
               Data to enrich your
               <span class="text-blue-800">online business</span>
             </h1>
-            <p class="text-text-gray font-normal text-xl leading-7">
+            <p class="text-text-gray font-normal text-xl leading-7 mt-5 mb-8">
               A Tailwind Figma Template exported with Figside on Vercel in
               one-click!
             </p>
             <a href="#">
               <p
-                class="font-medium text-lg leading-7 text-white bg-[#4F46E5] px-[25px] py-[17px]"
+                class="mr-3 inline-block rounded-[6px] font-medium text-lg leading-7 text-white bg-[#4F46E5] px-[25px] py-[17px]"
               >
                 Get started
               </p>
             </a>
+            <a href="#">
+              <p
+                class="shadow-custom-md shadow-custom-sm inline-block font-medium text-lg leading-7 text-blue-800 py-[17px] px-[30px] rounded-[6px]"
+              >
+                Live demo
+              </p></a
+            >
+          </div>
+          <div class="header-card-2">
+            <img src="./images/header-bg.png" alt="header img" />
           </div>
         </div>
       </div>
     </header>
+    <main>
+      <section class="w-full max-w-[1287px] mx-auto mb-[95px]">
+        <p
+          class="font-semibold text-base mx-auto text-text-blue flex justify-center items-center h-scree pt-[135px]"
+        >
+          TRANSACTIOINS
+        </p>
+        <h2 class="font-black text-4xl flex justify-center">
+          A better way to send money
+        </h2>
+        <p class="text-text-gray text-xl flex justify-center pt-4 pb-10">
+          Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
+          voluptatum cupiditate veritatis in accusamus quisquam.
+        </p>
+        <div class="grid grid-cols-2 gap-10">
+          <div class="flex gap-8 items-start">
+            <img class="" src="./images/messages.png" alt="messages" />
+            <div class="gap-2">
+              <h3 class="font-medium text-lg text-[#111827]">
+                Mobile notifications
+              </h3>
+              <p class="text-text-gray text-base">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Maiores impedit perferendis suscipit eaque, iste dolor
+                cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-8 items-start">
+            <img class="" src="./images/messages.png" alt="messages" />
+            <div class="gap-2">
+              <h3 class="font-medium text-lg text-[#111827]">
+                Mobile notifications
+              </h3>
+              <p class="text-text-gray text-base">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Maiores impedit perferendis suscipit eaque, iste dolor
+                cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-8 items-start">
+            <img class="" src="./images/messages.png" alt="messages" />
+            <div class="gap-2">
+              <h3 class="font-medium text-lg text-[#111827]">
+                Mobile notifications
+              </h3>
+              <p class="text-text-gray text-base">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Maiores impedit perferendis suscipit eaque, iste dolor
+                cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-8 items-start">
+            <img class="" src="./images/messages.png" alt="messages" />
+            <div class="gap-2">
+              <h3 class="font-medium text-lg text-[#111827]">
+                Mobile notifications
+              </h3>
+              <p class="text-text-gray text-base">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Maiores impedit perferendis suscipit eaque, iste dolor
+                cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#F9FAFB]">
+      <div
+        class="w-full max-w-[1287px] mx-auto px-16 py-8 flex justify-between items-center"
+      >
+        <div>
+          <h3 class="font-black text-4xl text-[#111827]">Ready to dive in?</h3>
+          <h3 class="font-black text-4xl text-[#4F46E5]">
+            Start your free trial today.
+          </h3>
+        </div>
+        <div>
+          <a href="#">
+            <p
+              class="mr-3 inline-block rounded-[6px] font-medium text-lg leading-7 text-white bg-[#4F46E5] px-[25px] py-[17px]"
+            >
+              Get started
+            </p>
+          </a>
+          <a href="#">
+            <p
+              class="shadow-custom-md shadow-custom-sm inline-block font-medium text-lg leading-7 text-blue-800 py-[17px] px-[30px] rounded-[6px]"
+            >
+              Live demo
+            </p></a
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
